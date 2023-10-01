@@ -14,3 +14,16 @@ The code is organized into notebooks; in each jupyter notebook we focused on a p
 >- `code/pagerank.ipynb`: implementation of the famous Pagerank algorithm and its variations like the Topic_sensitive Pagerank and the Personalized Pagerank;
 >- `code/recommendation_sys.ipynb`: implementation of a recommendation system through Collaborative Filtering techniques (item-item matrix approach);
 >- `code/supervised_ML.ipynb`: use of several machine learning classifiers in a supervised setup and performance comparison.
+
+## Used technologies
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+<br />
+
+## Team
+>- [Enrico Grimaldi](https://github.com/Engrima18)
+>- [Mario Edoardo Pandolfo](https://github.com/JRhin)
