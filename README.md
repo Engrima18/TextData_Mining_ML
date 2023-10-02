@@ -1,5 +1,5 @@
 # TextData_Mining_ML
-Textual data manipulation projects with applications of advanced data mining techniques: recommender systems, information retrieval systems, search engines, latent sentiment analysis, pagerank, PCA.
+Textual data manipulation projects with applications of advanced data mining techniques: recommendation systems, information retrieval systems, search engines, latent sentiment analysis, pagerank, PCA.
 
 ## Brief description
 Most of the machine learning algorithms and pattern recognition (data mining) techniques reported are applied on text-based data:
