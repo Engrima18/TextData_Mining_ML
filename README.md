@@ -15,6 +15,11 @@ The code is organized into notebooks; in each jupyter notebook we focused on a p
 >- `code/recommendation_sys.ipynb`: implementation of a recommendation system through Collaborative Filtering techniques (item-item matrix approach);
 >- `code/supervised_ML.ipynb`: use of several machine learning classifiers in a supervised setup and performance comparison.
 
+
+## Near duplicates detection
+In the `MINHASH_LSH.ipynb` jupyter notebook we
+
+
 ## Used technologies
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
