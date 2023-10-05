@@ -8,12 +8,12 @@ Most of the machine learning algorithms and pattern recognition (data mining) te
 
 
 The code is organized into notebooks; in each jupyter notebook we focused on a particular class of algorithms and models:
->- `code/MINHASH_LSH.ipynb`: near duplicates analysis and detection throuch the using of a particular hashing (similarity based) techniques;
->- `code/latent_sematic_analyisPCA.ipynb`: latent sematic analysis and identification of topics through dimensionality reduction techniques (PCA);
->- `code/my_search_engine.ipynb`: implementation of a complete search engine and analyze its performances through ad hoc evaluation metrics;
->- `code/pagerank.ipynb`: implementation of the famous Pagerank algorithm and its variations like the Topic_sensitive Pagerank and the Personalized Pagerank;
->- `code/recommendation_sys.ipynb`: implementation of a recommendation system through Collaborative Filtering techniques (item-item matrix approach);
->- `code/supervised_ML.ipynb`: use of several machine learning classifiers in a supervised setup and performance comparison.
+- `code/MINHASH_LSH.ipynb`: near duplicates analysis and detection throuch the using of a particular hashing (similarity based) techniques;
+- `code/latent_sematic_analyisPCA.ipynb`: latent sematic analysis and identification of topics through dimensionality reduction techniques (PCA);
+- `code/my_search_engine.ipynb`: implementation of a complete search engine and analyze its performances through ad hoc evaluation metrics;
+- `code/pagerank.ipynb`: implementation of the famous Pagerank algorithm and its variations like the Topic_sensitive Pagerank and the Personalized Pagerank;
+- `code/recommendation_sys.ipynb`: implementation of a recommendation system through Collaborative Filtering techniques (item-item matrix approach);
+- `code/supervised_ML.ipynb`: use of several machine learning classifiers in a supervised setup and performance comparison.
 
 
 ## Near duplicates detection
@@ -35,6 +35,19 @@ The explanation of the algorithm is long and tedious but we can say that it invo
 Among all the configurations we decided to use 
 , this one grantees us the smallest amount of False-Negatives and a LSH execution time smaller than the maximum (2 min). With this configuration we'll have a big number of False-Positives, but thanks to the computation of the approximate Jaccard Similarity, we can significantly reduce this number.
 
+## Search engines
+
+In the `my_search_engine.ipynb` jupyter notebook we build several search engines and evaluate their performance on a collection of documents we build. The models reported differ in a number of factors including:
+
+>- stemming/lemming preprocessing;
+>- removal of stopwords;
+>- weighting model.
+
+Below we report as performance evaluation metric the _Recall@k_.
+
+![lsh](imgs/se_evaluation.png)
+
+From the plot it is difficult to infer which search engine has better characteristics. In fact, it can be seen that the performance in terms of Recall@k is extremely similar among the best configurations. But from another study in the notebook we can see that the search engine with slightly better performance is the one characterized by a weighting model of the type **TF_IDF**, without removal of stop words and with a simple _EnglishSnowBall stemmer_.
 
 ## Used technologies
 
