@@ -77,6 +77,14 @@ Then we compare their best setup performances
 
 In the `recommendation_sys.ipynb` jupyter notebook we build a Recommendation system which is able to predict the user responses to options. In this case we used a **collaborative filtering** system where we recommend items based on similarities between items and/or users.
 
+## Pagerank
+
+In the `pagerank.ipynb` jupyter notebook we  explore the Pagerank algorithm for building an Information Retrieval System and delve into variants of the same algorithm such as:
+
+>- the Topic-sensitive Pagerank;
+>- the Personalized Pagerank.
+
+
 ## Used technologies
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
