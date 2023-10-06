@@ -53,25 +53,22 @@ From the plot it is difficult to infer which search engine has better characteri
 
 In the `latent_sematic_analysis.ipynb` jupyter notebook we perform PCA based Latent semantic analysis, dividing the documents in the best set of topics. Then we analyze the "Coherence" of the detected topics in term of contained information using a _goodness score_ .
 
-![pca](imgs/goodness_score.png)
-
 Then, selected the most important 5 topics we plot their pairwise jaccard similarity to verify if they are well differentiated.
 
-![jaccard](imgs/topics_similarity.png)
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
+![pca](imgs/goodness_score.png) | ![jaccard](imgs/topics_similarity.png)
 
 ## Supervised Machine Learning
 
-In the `supervised_ML.ipynb` jupyter notebook, through Randomized Search Cross-Validation, we select the 5 best combinations of parameters for two classifiers:
+In the `supervised_ML.ipynb` jupyter notebook, through Randomized Search Cross-Validation, we select the 5 best combinations of parameters for two classifiers (we then compare their best setup performances):
 
 >- a Logistic Regression
 >- a Multinomial Naive Bayes
 
-![sup_learning](imgs/logisticVSnb.png)
-
-Then we compare their best setup performances
-| <!-- -->    | <!-- -->    | 
-|-------------|-------------|
-![ml1](imgs/logistic.png)| ![ml2](imgs/naivebayes.png)
+| <!-- -->    | <!-- -->    | <!-- -->    | 
+|-------------|-------------|-------------|
+![sup_learning](imgs/logisticVSnb.png) | ![ml1](imgs/logistic.png)| ![ml2](imgs/naivebayes.png)
 
 ## Recommendation system
 
