@@ -4,7 +4,7 @@ Textual data manipulation projects with applications of advanced data mining tec
 ## Brief description
 Most of the machine learning algorithms and pattern recognition (data mining) techniques reported are applied on text-based data:
 - a book (*Le Morte D'Arthur* by Thomas Malory)
-- a collection of information about songs
+- information about a collection of songs
 
 
 The code is organized into notebooks; in each jupyter notebook we focused on a particular class of algorithms and models:
