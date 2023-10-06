@@ -45,9 +45,23 @@ In the `my_search_engine.ipynb` jupyter notebook we build several search engines
 
 Below we report as performance evaluation metric the _Recall@k_.
 
-![lsh](imgs/se_evaluation.png)
+![search_engine](imgs/se_evaluation.png)
 
 From the plot it is difficult to infer which search engine has better characteristics. In fact, it can be seen that the performance in terms of Recall@k is extremely similar among the best configurations. But from another study in the notebook we can see that the search engine with slightly better performance is the one characterized by a weighting model of the type **TF_IDF**, without removal of stop words and with a simple _EnglishSnowBall stemmer_.
+
+## Latent sematic analysis with dimensionality reduction
+
+In the `latent_sematic_analysis.ipynb` jupyter notebook we perform PCA based Latent semantic analysis, dividing the documents in the best set of topics. Then we analyze the "Coherence" of the detected topics in term of contained information using a _goodness score_ .
+
+![pca](imgs/goodness_score.png)
+
+Then, selected the most important 5 topics we plot their pairwise jaccard similarity to verify if they are well differentiated.
+
+![jaccard](imgs/topics_similarity.png)
+
+## Recommendation system
+
+In the `recommendation_sys.ipynb` jupyter notebook we build a Recommendation system which is able to predict the user responses to options. In this case we used a **collaborative filtering** system where we recommend items based on similarities between items and/or users.
 
 ## Used technologies
 
