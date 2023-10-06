@@ -59,6 +59,20 @@ Then, selected the most important 5 topics we plot their pairwise jaccard simila
 
 ![jaccard](imgs/topics_similarity.png)
 
+## Supervised Machine Learning
+
+In the `supervised_ML.ipynb` jupyter notebook, through Randomized Search Cross-Validation, we select the 5 best combinations of parameters for two classifiers:
+
+>- a Logistic Regression
+>- a Multinomial Naive Bayes
+
+![sup_learning](imgs/logisticVSnb.png)
+
+Then we compare their best setup performances
+| <!-- -->    | <!-- -->    | 
+|-------------|-------------|
+![ml1](imgs/logistic.png)| ![ml2](imgs/naivebayes.png)
+
 ## Recommendation system
 
 In the `recommendation_sys.ipynb` jupyter notebook we build a Recommendation system which is able to predict the user responses to options. In this case we used a **collaborative filtering** system where we recommend items based on similarities between items and/or users.
